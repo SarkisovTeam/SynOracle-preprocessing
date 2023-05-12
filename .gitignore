@@ -1,0 +1,8 @@
+.idea
+.git
+*.pyc
+*.json
+.ipynb_checkpoints
+test_jupyters
+*.log
+*.png

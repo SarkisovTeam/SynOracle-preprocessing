@@ -1,0 +1,7 @@
+numpy~=1.20.3
+pandas~=1.2.4
+lxml~=4.6.3
+pubchempy~=1.0.4
+chemdataextractor2~=2.1
+selenium~=4.6
+elsapy
