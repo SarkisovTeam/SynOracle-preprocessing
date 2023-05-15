@@ -1,3 +1,9 @@
+"""
+Pore volume extraction script from "Text Mining Metal–Organic Framework Papers"
+(DOI: 10.1021/acs.jcim.7b00608)
+Copyright (C) 2018 Sanghoon Park
+Released without license
+"""
 from bs4 import BeautifulSoup
 import re
 import string
