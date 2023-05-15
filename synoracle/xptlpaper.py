@@ -1,7 +1,6 @@
 """
 A module containing tools to do high-level text mining on complete scientific articles.
 Primarily uses ChemDataExtractor and its functionality.
-Additionally uses the surface area/pore volume mining scripts from Smit/Kim groups.
 
 Author: Joe Manning (@jrhmanning, joseph.manning@manchester.ac.uk)
 Date: Nov 2022
@@ -12,13 +11,11 @@ ExperimentalPaper - the main class containing the ChemDataExtractor Document obj
 Exceptions:
 InvalidInputError - Raised if no manuscript cna be found (as either an XML or HTML file)
 InputFileContentError - Raised if the file exists, but no usable manuscript/info was found therein
-SynthesisParseError - Raised if no data could be found from the Smit/Kim code. Defunct?
 """
 
 import logging
 import pathlib
-from .propertyreaders.html_PV_extract import smit_PV_extract
-from .propertyreaders.html_SA_extract import smit_find_sa
+
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -45,14 +42,11 @@ class InvalidInputError(Exception): pass
 class InputFileContentError(Exception): pass
 
 
-class SynthesisParseError(Exception): pass
-
 class ExperimentalPaper:
     """
     A class containing all the key methods for text mining a full manuscript.
 
     Key methods:
-    : produce_property_dataframe: Applies the Kim/Smit surface area mining code to the article
     : create_cde_doc: Creates a ChemDataExtractor document for later analysis
     : count_quantities: Performs a regex and part-of-speech search on a sentence in the CDE document
     : count_all_quantities: Performs count_quantities on all sentences within a paragraph
@@ -87,21 +81,6 @@ class ExperimentalPaper:
 
         logging.info('Files processed, ready to extract information\n-------------------------------------')
 
-    # def locate_inputs(self, source_paragraph, source_directory):
-    #     paragraph_path = pathlib.Path(source_paragraph)
-    #     self.doi_suffix = paragraph_path.stem
-    #     if not paragraph_path.is_file():
-    #         raise InvalidInputError(f"Cannot find extracted synthesis paragraph for paper {self.doi_suffix} (file: {paragraph_path})")
-    #     logging.info('Paper found with DOI suffix: {0}'.format(self.doi_suffix))
-    #     sourcedir = paragraph_path.parent.absolute()
-    #     self.find_paper(self.doi_suffix, sourcedir, filetype)
-    #     #self.load_xml(self.doi_suffix, sourcedir)
-    #     # with open(source_paragraph, encoding='utf-8') as f:
-    #     #     self.raw_text = f.read()
-    #     # if len(self.raw_text) == 0:
-    #     #     raise InputFileContentError(f'Empty procedure txt file loaded in!')
-    #     logging.info('Paper loaded in from {0} \n'.format(paragraph_path.parts[-1]))
-
     def _find_paper(self, manuscript_name: str):
         """
         Loads in the paper manuscript given a specific file name
@@ -116,97 +95,6 @@ class ExperimentalPaper:
                 raise InputFileContentError('Empty manuscript file loaded in!')
         self.manuscript_name = manuscript_name
         logging.info('Manuscript loaded in from {0}'.format(manuscript_name))
-
-
-    # Defunct?
-    # def load_xml(self, source_paragraph, sourcedir):
-    #     """
-    #
-    #     :param source_paragraph:
-    #     :param sourcedir:
-    #     :return:
-    #     """
-    #     from lxml import etree
-    #     from lxml.etree import XMLSyntaxError
-    #     xml_filename = sourcedir / (source_paragraph + '.xml')
-    #     if not xml_filename.is_file():
-    #         raise InvalidInputError(f"Cannot find extracted xml actions for paper {self.doi_suffix}")
-    #     with open(xml_filename, 'rb') as f:
-    #         raw = f.read()
-    #     try:
-    #         self.working_xml = etree.fromstring(raw)
-    #     except XMLSyntaxError as e:
-    #         logging.error('Cannot read extracted xml actions for paper {0}'.format(self.doi_suffix))
-    #         raise InputFileContentError
-    #     logging.info('XML loaded in from {0}'.format(xml_filename.parts[-1]))
-
-    property_read_dict = {
-        'SA': smit_find_sa,
-        'PV': smit_PV_extract
-    }
-
-    def produce_property_dataframe(self, property:str = 'SA') -> pd.DataFrame:
-        """
-        Creates a Pandas dataframe of all identified properties within the manuscript, using the Kim/Smit TDM method
-        :param property: Which property to search for, used as a dictionary lookup in property_read_dict
-        :return: A DataFrame containing all identified quantities
-        """
-        assert property in self.property_read_dict.keys()
-        prop_frame = self.property_read_dict[property](self.manuscript_name)
-
-        if len(prop_frame) < 1:
-            logging.warning(f'Warning! No {property} data identified!')
-            prop_frame = pd.DataFrame(columns={0: 'Name', 1: 'Measurement', 2:'Value', 3:'unit'})
-            # raise SynthesisParseError(f"Could not find any surface area data included!")
-        else:
-            pass
-            # prop_string, prop_frame = self.report_prop(property)
-        logging.info(prop_frame)
-        logging.info('--------------------------')
-        return prop_frame
-
-    # Defunct?
-    # def report_prop(self, property:str = 'SA'):
-    #     try:
-    #         self.SSA
-    #     except AttributeError:
-    #         self.SSA = smit_find_sa(self.manuscript)
-    #
-    #     output_str = ''
-    #
-    #     if len(self.SSA) > 0:
-    #         SA_frame = pd.DataFrame(self.SSA).rename({0: 'Name', 1: 'SSA type', 2: 'Specific surface area', 3: 'unit'},
-    #                                                  axis=1)
-    #         logging.debug(SA_frame)
-    #         for framework in self.targets:
-    #             valid_SA = SA_frame['Name'].str.contains(framework)
-    #             SA_str = f'{framework}: '
-    #             if len(valid_SA) == 0:
-    #                 SA_str += 'Not identified'
-    #             elif len(valid_SA) > 1:
-    #                 SA_str += 'Ambiguous (multiple values identified);\n\t' + ', '.join(
-    #                     [x.to_string(index=False).replace('\n', '') for _, x in SA_frame[valid_SA].iterrows()])
-    #             elif len(valid_SA) == 1:
-    #                 SA_str += f"{SA_frame['Specific surface area'][valid_SA]} {SA_frame['unit'][valid_SA]} ({SA_frame['SSA type'][valid_SA]})"
-    #             else:
-    #                 SA_str += 'Unparseable (check your inputs!)'
-    #
-    #             output_str += SA_str
-    #             output_str += '\n'
-    #
-    #     else:
-    #         for framework in self.targets:
-    #             output_str += f'{framework} (no surface data)\n'
-    #         null_data = {
-    #             'Name': {0: np.nan},
-    #             'SSA type': {0: np.nan},
-    #             'Specific surface Area': {0: np.nan},
-    #             'unit': {0: np.nan}
-    #         }
-    #         SA_frame = pd.DataFrame(null_data)
-    #         print(SA_frame)
-    #         # SA_frame = pd.DataFrame(columns = {0: 'Name', 1:'SSA type', 2:'Specific surface area', 3:'unit'})
-    #     return output_str, SA_frame
 
     def create_cde_doc(self):
         """ Creates a ChemDataExtractor document of the manuscript for analysis"""
@@ -298,8 +186,7 @@ class ExperimentalPaper:
 
         for c, paragraph in enumerate(self.cde_doc.paragraphs):
             if len(paragraph.cems) > 2:
-                #print(self.cde_doc.elements[c].cems)
-                # print(f"\t\t\033[1m Number of identified chemical entities: {len(d.elements[c].cems)}\033[0m")
+
                 names,quantities = self.count_all_quantities(paragraph)
                 logging.debug(quantities, names)
                 if quantities > 2:
