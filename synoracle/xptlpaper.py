@@ -96,14 +96,14 @@ class ExperimentalPaper:
         self.manuscript_name = manuscript_name
         logging.info('Manuscript loaded in from {0}'.format(manuscript_name))
 
-    def create_cde_doc(self):
+    def create_cde_doc(self, readers = None):
         """ Creates a ChemDataExtractor document of the manuscript for analysis"""
         try:
             self.manuscript
         except:
             raise InvalidInputError('No manuscript loaded!')
         with open(self.manuscript_name, 'rb') as f:
-            self.cde_doc = Document.from_file(f)
+            self.cde_doc = Document.from_file(f, readers)
 
     # region cde ancillary functions
     def _pairwise(self, iterable):
