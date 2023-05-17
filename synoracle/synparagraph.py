@@ -58,7 +58,7 @@ class SynParagraph:
 
     '''
 
-    def __init__(self, paper_identifier: str, source_directory: Union[str, Path] = Path('./'), chemtagger_dir: Union[str, Path] = './'):
+    def __init__(self, paper_identifier: str, source_directory: Union[str, Path] = Path('./'), chemtagger_dir: Union[str, Path] = './', chemtagger_exec = 'chemicalTagger-1.6-SNAPSHOT-jar-with-dependencies-file.jar'):
         """
         Instantiates the object and concerts a text document to XML (if needed)
 
@@ -70,7 +70,7 @@ class SynParagraph:
         self.paper_indentifier = paper_identifier
         self.source_paragraph = self.source_directory / (paper_identifier + '.txt')
         #self.regex_preprocess()
-        self.load_xml(chemtagger_dir=chemtagger_dir)
+        self.load_xml(chemtagger_dir=chemtagger_dir, chemtagger_exec=chemtagger_exec)
         self.extract_sequence()
 
     def regex_preprocess(self):
@@ -110,12 +110,12 @@ class SynParagraph:
             assert function_output.is_file(), function_output
         return function_output
 
-    def load_xml(self, chemtagger_dir='./'):
+    def load_xml(self, chemtagger_dir='./', chemtagger_exec='chemicalTagger-1.6-SNAPSHOT-jar-with-dependencies-file.jar'):
         """
         Loads an XML file into memory as an ElementTree
         :return: None
         """
-        xml_filename = self.apply_chem_tagger(chemtagger_dir=chemtagger_dir)
+        xml_filename = self.apply_chem_tagger(chemtagger_dir=chemtagger_dir, chemtagger_exec=chemtagger_exec)
         if not xml_filename.is_file():
             raise InvalidInputError(f"Cannot find extracted xml actions for paper {self.paper_indentifier}")
         with open(xml_filename, 'rb') as f:

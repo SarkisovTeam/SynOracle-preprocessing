@@ -192,7 +192,7 @@ class ExperimentalPaper:
                 if quantities > 2:
                     self.candidate_paragraphs[c] = paragraph
 
-    def output_paragraphs(self, output_dir: Union[str, Path]=None):
+    def output_paragraphs(self, output_dir: Union[str, Path]=None, paragraph_keys = None):
         """
         Prints out all of the identified synthesis pargraphs to individual text files for individual analysis.
         :param output_dir: The folder to print out the paragraph(s) to, defaults to the source directory
@@ -203,7 +203,17 @@ class ExperimentalPaper:
         else:
             output = Path(output_dir)
 
-        for num, text in self.candidate_paragraphs.items():
-            output_name = output / f'{self.paper_id}.{num}.txt'
-            with open(output_name, 'w', encoding='utf-8') as f:
-                f.write(text.text)
+        if not paragraph_keys:
+            for num, text in self.candidate_paragraphs.items():
+                output_name = output / f'{self.paper_id}.{num}.txt'
+                with open(output_name, 'w', encoding='utf-8') as f:
+                    f.write(text.text)
+        else:
+            try: 
+                for num in paragraph_keys:
+                    self.candidate_paragraphs[num]
+                    output_name = output / f'{self.paper_id}.{num}.txt'
+                    with open(output_name, 'w', encoding='utf-8') as f:
+                        f.write(self.candidate_paragraphs[num].text)
+            except KeyError as e:
+                raise e('Invalid paragraph number selected')
