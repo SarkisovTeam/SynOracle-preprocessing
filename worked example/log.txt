@@ -10,103 +10,33 @@ INFO       in xptlpaper.py        --> Gathering initial files:
 ----------------------
 INFO       in xptlpaper.py        --> Trying to read in manuscript as an html file
 INFO       in xptlpaper.py        --> Manuscript not found as a html file, trying again as an xml.
-INFO       in xptlpaper.py        --> Manuscript loaded in from S1385894723007039.xml
+INFO       in xptlpaper.py        --> Manuscript not found as an xml or html file!
+INFO       in xptlpaper.py        --> Gathering initial files:
+----------------------
+INFO       in xptlpaper.py        --> Trying to read in manuscript as an html file
+INFO       in xptlpaper.py        --> Manuscript not found as a html file, trying again as an xml.
+INFO       in xptlpaper.py        --> Manuscript loaded in from S2352186423001657.xml
 INFO       in xptlpaper.py        --> Files processed, ready to extract information
 -------------------------------------
-INFO       in table.py            --> Initialization of table: "[['pseudo-first-order', 'pseudo-first-order', 'pseudo-first-order', 'pseudo-first-order', 'pseudo-second-order', 'pseudo-second-order', 'pseudo-second-order', 'pseudo-second-order', 'pseudo-second-order'], ['K1 (min−1)', 'Qe.cal (mg·g−1)', 'R2', 'R2', 'K2', 'Qe.cal (mg·g−1)', 'Qe.cal (mg·g−1)', 'R2', 'R2'], ['0.181', '156.329', '0.904', '0.904', '0.002', '160.859', '160.859', '0.996', '0.996'], ['', '', '', '', '', '', '', '', ''], ['Intra-particle diffusion', 'Intra-particle diffusion', 'Intra-particle diffusion', 'Intra-particle diffusion', 'Intra-particle diffusion', 'Intra-particle diffusion', 'Intra-particle diffusion', 'Intra-particle diffusion', 'Intra-particle diffusion'], ['kdiff1 (mg·g−1 min0.5)', 'C1', 'R2', 'kdiff2 (mg·g−1 min0.5)', 'C2', 'R2', 'kdiff3 (mg·g−1 min0.5)', 'C3', 'R2'], ['17.941', '63.303', '0.937', '0.914', '144.790', '0.929', '0.226', '154.906', '0.890']]"
+INFO       in table.py            --> Initialization of table: "[['Membrane', 'Temperature (°C)', 'A mixture of separation performances', 'A mixture of separation performances', 'A mixture of separation performances', 'A mixture of separation performances', 'A mixture of separation performances', 'Reference'], ['', '', 'Selectivity', 'Selectivity', 'Selectivity', 'Selectivity', 'H2 permeances', ''], ['', '', 'H2/N2', 'H2/CO2', 'H2/CH4', 'H2/C3H8', '(GPU)', ''], ['DDR', '300', '/', '3.5', '/', '/', '23 582', ''], ['LTA AlPO 4', '25', '/', '7.6', '4.3', '146', '746', ''], ['NaA', '20', '/', '6.7', '4.9', '15.8', '686', ''], ['RMOF-3', '25', '/', '4.1', '2', '2.4', '3283', ''], ['ZIF-69', '25', '/', '2.7', '3.7', '/', '194', ''], ['ZIF-90', '35', '/', '1.8', '2.7', '/', '95', ''], ['ZIF-7', '200', '/', '6.5', '5.9', '/', '238', ''], ['ZIF-8', '25', '15', '8.1', '23.2', '329.7', '62 686', ''], ['ZIF-8@GO membrane', '250', '90.5', '14.9', '139.1', '3816.6', '388', ''], ['ZIF-8 membrane supported on SSNs', '35', '/', '11.32', '/', '/', '20 907', 'This work']]"
 INFO       in table.py            --> Configuration parameters are: {'use_title_row': True, 'use_prefixing': True, 'use_footnotes': True, 'use_spanning_cells': True, 'use_header_extension': True, 'use_max_data_area': False, 'standardize_empty_data': True, 'row_header': None, 'col_header': None}
 INFO       in from_any.py         --> Input is list type.
 INFO       in from_any.py         --> Input is list type.
 INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Models', 'Parameters', 'Linear', 'Nonlinear'], ['Langmuir', 'Qmax (mg·g−1)', '414.6', '403.5'], ['Langmuir', 'KL (L·mg−1)', '0.0300', '0.0314'], ['Langmuir', 'R2', '0.998', '0.997'], ['Freundlich', 'KF', '41.17', '54.82'], ['Freundlich', 'n', '2.44', '0.437'], ['Freundlich', 'R2', '0.954', '0.958'], ['Temkin', 'b (J‧mol−1)', '30.924', '30.923'], ['Temkin', 'KT (L·mg−1)', '0.380', '0.377'], ['Temkin', 'R2', '0.996', '0.996']]"
-INFO       in table.py            --> Configuration parameters are: {'use_title_row': True, 'use_prefixing': True, 'use_footnotes': True, 'use_spanning_cells': True, 'use_header_extension': True, 'use_max_data_area': False, 'standardize_empty_data': True, 'row_header': None, 'col_header': None}
+INFO       in table.py            --> Initialization of table: "[['Membrane'], ['Membrane'], ['Membrane'], ['DDR'], ['DDR'], ['DDR'], ['DDR'], ['DDR'], ['DDR'], ['DDR'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['NaA'], ['NaA'], ['NaA'], ['NaA'], ['NaA'], ['NaA'], ['NaA'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 2}
 INFO       in from_any.py         --> Input is list type.
 INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Adsorbent', 'Adsorption capacity (mg·g−1)', 'Reference'], ['PAN/Ppy core shell NFs', '75', ''], ['PAN-NH2 NFs', '137', ''], ['CCN-PEI NFs', '358.4', ''], ['CS-PGMA-PEI NFs', '139', ''], ['PAN/CA/MIL-125/TiO2 NFs', '273.3', ''], ['ZIF-8@ZIF-8/PAN NFs', '39.7', ''], ['PVA/PEI NFs', '150', ''], ['CA/PEI NFs', '285.7', ''], ['PAN/HPEI NFs', '206', ''], ['Co-Al-LDH@Fe2O3/3DPC NFs', '400.4', ''], ['ZIF-8@PDA/PAN NFs', '212.7', ''], ['PPy@PI NFs', '162.8', ''], ['PAN/PEI@ZIF-8 NFs', '403.5', 'This work']]"
-INFO       in table.py            --> Configuration parameters are: {'use_title_row': True, 'use_prefixing': True, 'use_footnotes': True, 'use_spanning_cells': True, 'use_header_extension': True, 'use_max_data_area': False, 'standardize_empty_data': True, 'row_header': None, 'col_header': None}
-INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Membrane'], ['Membrane'], ['Membrane'], ['DDR'], ['DDR'], ['DDR'], ['DDR'], ['DDR'], ['DDR'], ['DDR'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['NaA'], ['NaA'], ['NaA'], ['NaA'], ['NaA'], ['NaA'], ['NaA'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 2}
 INFO       in from_any.py         --> Input is list type.
 INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Tem. (K)', 'Ln Kd', 'ΔG(kJ‧ mol−1)', 'ΔH(kJ‧mol−1)', 'ΔS(JK−1‧mol−1)'], ['298', '1.1538', '−0.355', '8.542', '29.729'], ['308', '1.2324', '−0.535', '8.542', '29.729'], ['318', '1.4347', '−0.954', '8.542', '29.729']]"
-INFO       in table.py            --> Configuration parameters are: {'use_title_row': True, 'use_prefixing': True, 'use_footnotes': True, 'use_spanning_cells': True, 'use_header_extension': True, 'use_max_data_area': False, 'standardize_empty_data': True, 'row_header': None, 'col_header': None}
+INFO       in table.py            --> Initialization of table: "[['Membrane'], ['Membrane'], ['Membrane'], ['DDR'], ['DDR'], ['DDR'], ['DDR'], ['DDR'], ['DDR'], ['DDR'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['LTA AlPO 4'], ['NaA'], ['NaA'], ['NaA'], ['NaA'], ['NaA'], ['NaA'], ['NaA'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['RMOF-3'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-69'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-90'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-7'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8@GO membrane'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs'], ['ZIF-8 membrane supported on SSNs']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 2}
 INFO       in from_any.py         --> Input is list type.
 INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['pseudo-first-order'], ['K1 (min−1)'], ['0.181'], ['Intra-particle diffusion'], ['kdiff1 (mg·g−1 min0.5)'], ['17.941'], ['17.941'], ['17.941'], ['17.941'], ['17.941'], ['17.941'], ['17.941'], ['17.941']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 4}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['pseudo-first-order'], ['K1 (min−1)'], ['0.181'], ['Intra-particle diffusion'], ['kdiff1 (mg·g−1 min0.5)'], ['17.941'], ['17.941'], ['17.941'], ['17.941'], ['17.941'], ['17.941'], ['17.941'], ['17.941']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 4}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['pseudo-first-order'], ['K1 (min−1)'], ['0.181'], ['Intra-particle diffusion'], ['kdiff1 (mg·g−1 min0.5)'], ['17.941'], ['17.941'], ['17.941'], ['17.941'], ['17.941'], ['17.941'], ['17.941'], ['17.941']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 4}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['pseudo-first-order'], ['K1 (min−1)'], ['0.181'], ['Intra-particle diffusion'], ['kdiff1 (mg·g−1 min0.5)'], ['']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 4}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Models', 'Parameters'], ['Langmuir', 'Qmax (mg·g−1)'], ['Langmuir', 'Qmax (mg·g−1)'], ['Langmuir', 'KL (L·mg−1)'], ['Langmuir', 'KL (L·mg−1)'], ['Langmuir', 'R2'], ['Langmuir', 'R2'], ['Freundlich', 'KF'], ['Freundlich', 'KF'], ['Freundlich', 'n'], ['Freundlich', 'n'], ['Freundlich', 'R2'], ['Freundlich', 'R2'], ['Temkin', 'b (J‧mol−1)'], ['Temkin', 'b (J‧mol−1)'], ['Temkin', 'KT (L·mg−1)'], ['Temkin', 'KT (L·mg−1)'], ['Temkin', 'R2'], ['Temkin', 'R2']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Models', 'Parameters'], ['Langmuir', 'Qmax (mg·g−1)'], ['Langmuir', 'Qmax (mg·g−1)'], ['Langmuir', 'KL (L·mg−1)'], ['Langmuir', 'KL (L·mg−1)'], ['Langmuir', 'R2'], ['Langmuir', 'R2'], ['Freundlich', 'KF'], ['Freundlich', 'KF'], ['Freundlich', 'n'], ['Freundlich', 'n'], ['Freundlich', 'R2'], ['Freundlich', 'R2'], ['Temkin', 'b (J‧mol−1)'], ['Temkin', 'b (J‧mol−1)'], ['Temkin', 'KT (L·mg−1)'], ['Temkin', 'KT (L·mg−1)'], ['Temkin', 'R2'], ['Temkin', 'R2']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Models', 'Parameters'], ['Langmuir', 'Qmax (mg·g−1)'], ['Langmuir', 'Qmax (mg·g−1)'], ['Langmuir', 'KL (L·mg−1)'], ['Langmuir', 'KL (L·mg−1)'], ['Langmuir', 'R2'], ['Langmuir', 'R2'], ['Freundlich', 'KF'], ['Freundlich', 'KF'], ['Freundlich', 'n'], ['Freundlich', 'n'], ['Freundlich', 'R2'], ['Freundlich', 'R2'], ['Temkin', 'b (J‧mol−1)'], ['Temkin', 'b (J‧mol−1)'], ['Temkin', 'KT (L·mg−1)'], ['Temkin', 'KT (L·mg−1)'], ['Temkin', 'R2'], ['Temkin', 'R2']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Models'], ['Langmuir'], ['Langmuir'], ['Langmuir'], ['Freundlich'], ['Freundlich'], ['Freundlich'], ['Temkin'], ['Temkin'], ['Temkin']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Models'], ['Langmuir'], ['Langmuir'], ['Langmuir'], ['Freundlich'], ['Freundlich'], ['Freundlich'], ['Temkin'], ['Temkin'], ['Temkin']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Models'], ['Langmuir'], ['Langmuir'], ['Langmuir'], ['Freundlich'], ['Freundlich'], ['Freundlich'], ['Temkin'], ['Temkin'], ['Temkin']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Models'], [''], [''], ['']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Adsorbent'], ['PAN/Ppy core shell NFs'], ['PAN/Ppy core shell NFs'], ['PAN-NH2 NFs'], ['PAN-NH2 NFs'], ['CCN-PEI NFs'], ['CCN-PEI NFs'], ['CS-PGMA-PEI NFs'], ['CS-PGMA-PEI NFs'], ['PAN/CA/MIL-125/TiO2 NFs'], ['PAN/CA/MIL-125/TiO2 NFs'], ['ZIF-8@ZIF-8/PAN NFs'], ['ZIF-8@ZIF-8/PAN NFs'], ['PVA/PEI NFs'], ['PVA/PEI NFs'], ['CA/PEI NFs'], ['CA/PEI NFs'], ['PAN/HPEI NFs'], ['PAN/HPEI NFs'], ['Co-Al-LDH@Fe2O3/3DPC NFs'], ['Co-Al-LDH@Fe2O3/3DPC NFs'], ['ZIF-8@PDA/PAN NFs'], ['ZIF-8@PDA/PAN NFs'], ['PPy@PI NFs'], ['PPy@PI NFs'], ['PAN/PEI@ZIF-8 NFs'], ['PAN/PEI@ZIF-8 NFs']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Adsorbent'], ['PAN/Ppy core shell NFs'], ['PAN/Ppy core shell NFs'], ['PAN-NH2 NFs'], ['PAN-NH2 NFs'], ['CCN-PEI NFs'], ['CCN-PEI NFs'], ['CS-PGMA-PEI NFs'], ['CS-PGMA-PEI NFs'], ['PAN/CA/MIL-125/TiO2 NFs'], ['PAN/CA/MIL-125/TiO2 NFs'], ['ZIF-8@ZIF-8/PAN NFs'], ['ZIF-8@ZIF-8/PAN NFs'], ['PVA/PEI NFs'], ['PVA/PEI NFs'], ['CA/PEI NFs'], ['CA/PEI NFs'], ['PAN/HPEI NFs'], ['PAN/HPEI NFs'], ['Co-Al-LDH@Fe2O3/3DPC NFs'], ['Co-Al-LDH@Fe2O3/3DPC NFs'], ['ZIF-8@PDA/PAN NFs'], ['ZIF-8@PDA/PAN NFs'], ['PPy@PI NFs'], ['PPy@PI NFs'], ['PAN/PEI@ZIF-8 NFs'], ['PAN/PEI@ZIF-8 NFs']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Adsorbent'], ['PAN/Ppy core shell NFs'], ['PAN/Ppy core shell NFs'], ['PAN-NH2 NFs'], ['PAN-NH2 NFs'], ['CCN-PEI NFs'], ['CCN-PEI NFs'], ['CS-PGMA-PEI NFs'], ['CS-PGMA-PEI NFs'], ['PAN/CA/MIL-125/TiO2 NFs'], ['PAN/CA/MIL-125/TiO2 NFs'], ['ZIF-8@ZIF-8/PAN NFs'], ['ZIF-8@ZIF-8/PAN NFs'], ['PVA/PEI NFs'], ['PVA/PEI NFs'], ['CA/PEI NFs'], ['CA/PEI NFs'], ['PAN/HPEI NFs'], ['PAN/HPEI NFs'], ['Co-Al-LDH@Fe2O3/3DPC NFs'], ['Co-Al-LDH@Fe2O3/3DPC NFs'], ['ZIF-8@PDA/PAN NFs'], ['ZIF-8@PDA/PAN NFs'], ['PPy@PI NFs'], ['PPy@PI NFs'], ['PAN/PEI@ZIF-8 NFs'], ['PAN/PEI@ZIF-8 NFs']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Adsorbent'], [''], [''], [''], [''], [''], [''], [''], [''], [''], [''], [''], [''], ['']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Tem. (K)'], ['298'], ['298'], ['298'], ['298'], ['308'], ['308'], ['308'], ['308'], ['318'], ['318'], ['318'], ['318']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Tem. (K)'], ['298'], ['298'], ['298'], ['298'], ['308'], ['308'], ['308'], ['308'], ['318'], ['318'], ['318'], ['318']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Tem. (K)'], ['298'], ['298'], ['298'], ['298'], ['308'], ['308'], ['308'], ['308'], ['318'], ['318'], ['318'], ['318']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
-INFO       in from_any.py         --> Input is list type.
-INFO       in from_any.py         --> Input is list type.
-INFO       in table.py            --> Initialization of table: "[['Tem. (K)'], [''], [''], ['']]"
-INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in table.py            --> Initialization of table: "[['Membrane'], ['Membrane'], ['Membrane'], [''], [''], [''], [''], [''], [''], [''], [''], [''], ['']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 2}
 INFO       in from_any.py         --> Input is list type.
 INFO       in from_any.py         --> Input is list type.
 INFO       in archival.py         --> loading archive file C:\Users\d23895jm\AppData\Local\ChemDataExtractor\ChemDataExtractor\models/bert_finetuned_crf_model-1.0a
@@ -116,21 +46,21 @@ INFO       in registrable.py      --> instantiating registered subclass bert_crf
 INFO       in params.py           --> type = default
 INFO       in registrable.py      --> instantiating registered subclass default of <class 'allennlp.data.vocabulary.Vocabulary'>
 INFO       in vocabulary.py       --> Loading token dictionary from C:\Users\d23895jm\AppData\Local\ChemDataExtractor\ChemDataExtractor\models/bert_finetuned_crf_model-1.0a\vocabulary.
-INFO       in from_params.py      --> instantiating class <class 'allennlp.models.model.Model'> from params {'type': 'bert_crf_tagger', 'calculate_span_f1': True, 'constrain_crf_decoding': True, 'dropout': 0.1, 'include_start_end_transitions': False, 'label_encoding': 'BIO', 'text_field_embedder': {'embedder_to_indexer_map': {'bert': ['bert', 'bert-offsets']}, 'allow_unmatched_keys': True, 'token_embedders': {'bert': {'type': 'bert-pretrained', 'top_layer_only': True, 'requires_grad': True, 'pretrained_model': 'C:\\Users\\d23895jm\\AppData\\Local\\ChemDataExtractor\\ChemDataExtractor\\models/scibert_cased_weights-1.0.tar.gz'}}}} and extras {'vocab'}
+INFO       in from_params.py      --> instantiating class <class 'allennlp.models.model.Model'> from params {'dropout': 0.1, 'calculate_span_f1': True, 'constrain_crf_decoding': True, 'type': 'bert_crf_tagger', 'include_start_end_transitions': False, 'label_encoding': 'BIO', 'text_field_embedder': {'embedder_to_indexer_map': {'bert': ['bert', 'bert-offsets']}, 'allow_unmatched_keys': True, 'token_embedders': {'bert': {'requires_grad': True, 'type': 'bert-pretrained', 'top_layer_only': True, 'pretrained_model': 'C:\\Users\\d23895jm\\AppData\\Local\\ChemDataExtractor\\ChemDataExtractor\\models/scibert_cased_weights-1.0.tar.gz'}}}} and extras {'vocab'}
 INFO       in params.py           --> model.type = bert_crf_tagger
-INFO       in from_params.py      --> instantiating class <class 'chemdataextractor.nlp.finetuned_bert_crf_wrapper._BertCrfTagger'> from params {'calculate_span_f1': True, 'constrain_crf_decoding': True, 'dropout': 0.1, 'include_start_end_transitions': False, 'label_encoding': 'BIO', 'text_field_embedder': {'embedder_to_indexer_map': {'bert': ['bert', 'bert-offsets']}, 'allow_unmatched_keys': True, 'token_embedders': {'bert': {'type': 'bert-pretrained', 'top_layer_only': True, 'requires_grad': True, 'pretrained_model': 'C:\\Users\\d23895jm\\AppData\\Local\\ChemDataExtractor\\ChemDataExtractor\\models/scibert_cased_weights-1.0.tar.gz'}}}} and extras {'vocab'}
-INFO       in from_params.py      --> instantiating class <class 'allennlp.modules.text_field_embedders.text_field_embedder.TextFieldEmbedder'> from params {'embedder_to_indexer_map': {'bert': ['bert', 'bert-offsets']}, 'allow_unmatched_keys': True, 'token_embedders': {'bert': {'type': 'bert-pretrained', 'top_layer_only': True, 'requires_grad': True, 'pretrained_model': 'C:\\Users\\d23895jm\\AppData\\Local\\ChemDataExtractor\\ChemDataExtractor\\models/scibert_cased_weights-1.0.tar.gz'}}} and extras {'vocab'}
+INFO       in from_params.py      --> instantiating class <class 'chemdataextractor.nlp.finetuned_bert_crf_wrapper._BertCrfTagger'> from params {'dropout': 0.1, 'calculate_span_f1': True, 'constrain_crf_decoding': True, 'include_start_end_transitions': False, 'label_encoding': 'BIO', 'text_field_embedder': {'embedder_to_indexer_map': {'bert': ['bert', 'bert-offsets']}, 'allow_unmatched_keys': True, 'token_embedders': {'bert': {'requires_grad': True, 'type': 'bert-pretrained', 'top_layer_only': True, 'pretrained_model': 'C:\\Users\\d23895jm\\AppData\\Local\\ChemDataExtractor\\ChemDataExtractor\\models/scibert_cased_weights-1.0.tar.gz'}}}} and extras {'vocab'}
+INFO       in from_params.py      --> instantiating class <class 'allennlp.modules.text_field_embedders.text_field_embedder.TextFieldEmbedder'> from params {'embedder_to_indexer_map': {'bert': ['bert', 'bert-offsets']}, 'allow_unmatched_keys': True, 'token_embedders': {'bert': {'requires_grad': True, 'type': 'bert-pretrained', 'top_layer_only': True, 'pretrained_model': 'C:\\Users\\d23895jm\\AppData\\Local\\ChemDataExtractor\\ChemDataExtractor\\models/scibert_cased_weights-1.0.tar.gz'}}} and extras {'vocab'}
 INFO       in params.py           --> model.text_field_embedder.type = basic
 INFO       in params.py           --> model.text_field_embedder.allow_unmatched_keys = True
-INFO       in from_params.py      --> instantiating class <class 'allennlp.modules.token_embedders.token_embedder.TokenEmbedder'> from params {'type': 'bert-pretrained', 'top_layer_only': True, 'requires_grad': True, 'pretrained_model': 'C:\\Users\\d23895jm\\AppData\\Local\\ChemDataExtractor\\ChemDataExtractor\\models/scibert_cased_weights-1.0.tar.gz'} and extras {'vocab'}
+INFO       in from_params.py      --> instantiating class <class 'allennlp.modules.token_embedders.token_embedder.TokenEmbedder'> from params {'requires_grad': True, 'type': 'bert-pretrained', 'top_layer_only': True, 'pretrained_model': 'C:\\Users\\d23895jm\\AppData\\Local\\ChemDataExtractor\\ChemDataExtractor\\models/scibert_cased_weights-1.0.tar.gz'} and extras {'vocab'}
 INFO       in params.py           --> model.text_field_embedder.token_embedders.bert.type = bert-pretrained
-INFO       in from_params.py      --> instantiating class <class 'allennlp.modules.token_embedders.bert_token_embedder.PretrainedBertEmbedder'> from params {'top_layer_only': True, 'requires_grad': True, 'pretrained_model': 'C:\\Users\\d23895jm\\AppData\\Local\\ChemDataExtractor\\ChemDataExtractor\\models/scibert_cased_weights-1.0.tar.gz'} and extras {'vocab'}
+INFO       in from_params.py      --> instantiating class <class 'allennlp.modules.token_embedders.bert_token_embedder.PretrainedBertEmbedder'> from params {'requires_grad': True, 'top_layer_only': True, 'pretrained_model': 'C:\\Users\\d23895jm\\AppData\\Local\\ChemDataExtractor\\ChemDataExtractor\\models/scibert_cased_weights-1.0.tar.gz'} and extras {'vocab'}
 INFO       in params.py           --> model.text_field_embedder.token_embedders.bert.pretrained_model = C:\Users\d23895jm\AppData\Local\ChemDataExtractor\ChemDataExtractor\models/scibert_cased_weights-1.0.tar.gz
 INFO       in params.py           --> model.text_field_embedder.token_embedders.bert.requires_grad = True
 INFO       in params.py           --> model.text_field_embedder.token_embedders.bert.top_layer_only = True
 INFO       in params.py           --> model.text_field_embedder.token_embedders.bert.scalar_mix_parameters = None
 INFO       in modeling.py         --> loading archive file C:\Users\d23895jm\AppData\Local\ChemDataExtractor\ChemDataExtractor\models/scibert_cased_weights-1.0.tar.gz
-INFO       in modeling.py         --> extracting archive file C:\Users\d23895jm\AppData\Local\ChemDataExtractor\ChemDataExtractor\models/scibert_cased_weights-1.0.tar.gz to temp dir C:\Users\d23895jm\AppData\Local\Temp\tmp0czuh1ey
+INFO       in modeling.py         --> extracting archive file C:\Users\d23895jm\AppData\Local\ChemDataExtractor\ChemDataExtractor\models/scibert_cased_weights-1.0.tar.gz to temp dir C:\Users\d23895jm\AppData\Local\Temp\tmpihol4ieo
 INFO       in modeling.py         --> Model config {
   "attention_probs_dropout_prob": 0.1,
   "hidden_act": "gelu",
@@ -357,3 +287,188 @@ INFO       in initializers.py     -->    text_field_embedder.token_embedder_bert
 INFO       in initializers.py     -->    text_field_embedder.token_embedder_bert.bert_model.encoder.layer.9.output.dense.weight
 INFO       in initializers.py     -->    text_field_embedder.token_embedder_bert.bert_model.pooler.dense.bias
 INFO       in initializers.py     -->    text_field_embedder.token_embedder_bert.bert_model.pooler.dense.weight
+INFO       in xptlpaper.py        --> Gathering initial files:
+----------------------
+INFO       in xptlpaper.py        --> Trying to read in manuscript as an html file
+INFO       in xptlpaper.py        --> Manuscript not found as a html file, trying again as an xml.
+INFO       in xptlpaper.py        --> Manuscript loaded in from S1387700322008668.xml
+INFO       in xptlpaper.py        --> Files processed, ready to extract information
+-------------------------------------
+INFO       in table.py            --> Initialization of table: "[['Equation', 'y\xa0=\xa0a\xa0+\xa0b*x', 'Value', 'Standard error', 'Adj. R-square'], ['ZIF-8(Fe)-MB', 'Intercept', '−0.25911', '0.18373', '0.8439'], ['ZIF-8(Fe)-MB', 'Slope', '0.02939', '0.0051', '0.8439'], ['ZIF-8(Fe)-RhB', 'Intercept', '−0.06411', '0.04479', '0.94817'], ['ZIF-8(Fe)-RhB', 'Slope', '0.01308', '0.00124', '0.94817']]"
+INFO       in table.py            --> Configuration parameters are: {'use_title_row': True, 'use_prefixing': True, 'use_footnotes': True, 'use_spanning_cells': True, 'use_header_extension': True, 'use_max_data_area': False, 'standardize_empty_data': True, 'row_header': None, 'col_header': None}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Equation', 'y = a + b*x'], ['ZIF-8(Fe)-MB', 'Intercept'], ['ZIF-8(Fe)-MB', 'Intercept'], ['ZIF-8(Fe)-MB', 'Intercept'], ['ZIF-8(Fe)-MB', 'Slope'], ['ZIF-8(Fe)-MB', 'Slope'], ['ZIF-8(Fe)-MB', 'Slope'], ['ZIF-8(Fe)-RhB', 'Intercept'], ['ZIF-8(Fe)-RhB', 'Intercept'], ['ZIF-8(Fe)-RhB', 'Intercept'], ['ZIF-8(Fe)-RhB', 'Slope'], ['ZIF-8(Fe)-RhB', 'Slope'], ['ZIF-8(Fe)-RhB', 'Slope']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Equation', 'y = a + b*x'], ['ZIF-8(Fe)-MB', 'Intercept'], ['ZIF-8(Fe)-MB', 'Intercept'], ['ZIF-8(Fe)-MB', 'Intercept'], ['ZIF-8(Fe)-MB', 'Slope'], ['ZIF-8(Fe)-MB', 'Slope'], ['ZIF-8(Fe)-MB', 'Slope'], ['ZIF-8(Fe)-RhB', 'Intercept'], ['ZIF-8(Fe)-RhB', 'Intercept'], ['ZIF-8(Fe)-RhB', 'Intercept'], ['ZIF-8(Fe)-RhB', 'Slope'], ['ZIF-8(Fe)-RhB', 'Slope'], ['ZIF-8(Fe)-RhB', 'Slope']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Equation', 'y = a + b*x'], ['ZIF-8(Fe)-MB', 'Intercept'], ['ZIF-8(Fe)-MB', 'Intercept'], ['ZIF-8(Fe)-MB', 'Intercept'], ['ZIF-8(Fe)-MB', 'Slope'], ['ZIF-8(Fe)-MB', 'Slope'], ['ZIF-8(Fe)-MB', 'Slope'], ['ZIF-8(Fe)-RhB', 'Intercept'], ['ZIF-8(Fe)-RhB', 'Intercept'], ['ZIF-8(Fe)-RhB', 'Intercept'], ['ZIF-8(Fe)-RhB', 'Slope'], ['ZIF-8(Fe)-RhB', 'Slope'], ['ZIF-8(Fe)-RhB', 'Slope']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Equation'], ['ZIF-8(Fe)-MB'], ['ZIF-8(Fe)-MB'], ['ZIF-8(Fe)-RhB'], ['ZIF-8(Fe)-RhB']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Equation'], ['ZIF-8(Fe)-MB'], ['ZIF-8(Fe)-MB'], ['ZIF-8(Fe)-RhB'], ['ZIF-8(Fe)-RhB']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Equation'], ['ZIF-8(Fe)-MB'], ['ZIF-8(Fe)-MB'], ['ZIF-8(Fe)-RhB'], ['ZIF-8(Fe)-RhB']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Equation'], [''], ['']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in xptlpaper.py        --> Gathering initial files:
+----------------------
+INFO       in xptlpaper.py        --> Trying to read in manuscript as an html file
+INFO       in xptlpaper.py        --> Manuscript not found as a html file, trying again as an xml.
+INFO       in xptlpaper.py        --> Manuscript loaded in from S2590123022000482.xml
+INFO       in xptlpaper.py        --> Files processed, ready to extract information
+-------------------------------------
+INFO       in table.py            --> Initialization of table: "[['Isotherm model', 'Non-linear equation'], ['Langmuir', 'Qe=QmaxkLCe1+kLCe'], ['Freundlich', 'Qe=kFCe1nF'], ['Sips', 'Qe=Qmax(ksCe)1ns1+(ksCe)1ns']]"
+INFO       in table.py            --> Configuration parameters are: {'use_title_row': True, 'use_prefixing': True, 'use_footnotes': True, 'use_spanning_cells': True, 'use_header_extension': True, 'use_max_data_area': False, 'standardize_empty_data': True, 'row_header': None, 'col_header': None}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Kinetic model', 'Non-linear equation'], ['Pseudo first order', 'qt=qe[1−exp(−kft)]'], ['Pseudo second order', 'qt=ksqe2t1+qekst'], ['Avrami fractional order', 'qt=qe{1−exp[−(kAVt)n]}']]"
+INFO       in table.py            --> Configuration parameters are: {'use_title_row': True, 'use_prefixing': True, 'use_footnotes': True, 'use_spanning_cells': True, 'use_header_extension': True, 'use_max_data_area': False, 'standardize_empty_data': True, 'row_header': None, 'col_header': None}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Isotherm model', 'Param.', 'ZnO@ZIF-8-WD-US', 'ZnO@ZIF-8-WD-MW'], ['Langmuir', 'KL(L/mg)', '0.7045', '0.5058'], ['Langmuir', 'Qm(mg/g)', '117.95', '114.97'], ['Langmuir', 'R2', '0.9035', '0.9254'], ['Freundlich', 'KF(mg/g)', '39.986', '34.682'], ['Freundlich', 'nF', '2.58', '2.4798'], ['Freundlich', 'R2', '0.7604', '0.7764'], ['Sips', 'Ks(L/mg)', '1.3408', '0.7838'], ['Sips', 'Qm(mg/g)', '100.83', '96.97'], ['Sips', 'nS', '0.3651', '0.4721'], ['Sips', 'R2', '0.9938', '0.9933']]"
+INFO       in table.py            --> Configuration parameters are: {'use_title_row': True, 'use_prefixing': True, 'use_footnotes': True, 'use_spanning_cells': True, 'use_header_extension': True, 'use_max_data_area': False, 'standardize_empty_data': True, 'row_header': None, 'col_header': None}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['MOF', 'Metal', 'Ligand', 'Adsorption capacity (mg g−1)', 'Adsorption equilibrium time (min)', 'Ref.'], ['Al-MIL-101', 'Al(III)', 'Terephthalic acid', '90', '100', '[ ]'], ['ZIF-67', 'Co(II)', '2-Methylimidazole', '92.43', '39.95', '[ ]'], ['ZIF-8', 'Zn(II)', '2-Methylimidazole', '38.22', '30', '[ ]'], ['ZIF8@MWCNT', 'Zn(II)', '2-Methylimidazole', '203.0', '180', '[ ]'], ['La@ZIF-8', 'Zn(II)', '2-Methylimidazole', '147.63', '120', '[ ]'], ['ZnO@ZIF-8-US', 'Zn(II)', '2-Methylimidazole', '101,61', '240', 'Our work'], ['ZnO@ZIF-8-MW', 'Zn(II)', '2-Methylimidazole', '94.95', '240', 'Our work']]"
+INFO       in table.py            --> Configuration parameters are: {'use_title_row': True, 'use_prefixing': True, 'use_footnotes': True, 'use_spanning_cells': True, 'use_header_extension': True, 'use_max_data_area': False, 'standardize_empty_data': True, 'row_header': None, 'col_header': None}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Adsorbent', 'Pseudo-first order', 'Pseudo-first order', 'Pseudo-first order', 'Pseudo-second order', 'Pseudo-second order', 'Pseudo-second order', 'Avrami fractional order', 'Avrami fractional order', 'Avrami fractional order', 'Avrami fractional order'], ['', 'kF (L/mg)', 'Qe (mg/g)', 'R2', 'kS (mg/g)', 'Qe (mg/g)', 'R2', 'kA', 'Qe (mg/g)', 'n', 'R2'], ['ZnO@ZIF-8-WD-US', '0.0414', '3.8859', '0.9245', '0.0146', '4.2331', '0.9709', '0.0228', '4.5522', '0.4662', '0.9957'], ['ZnO@ZIF-8-WD-MW', '0.0210', '3.3225', '0.9820', '0.0061', '4.8875', '0.9827', '0.0203', '3.3513', '0.9463', '0.9827']]"
+INFO       in table.py            --> Configuration parameters are: {'use_title_row': True, 'use_prefixing': True, 'use_footnotes': True, 'use_spanning_cells': True, 'use_header_extension': True, 'use_max_data_area': False, 'standardize_empty_data': True, 'row_header': None, 'col_header': None}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['', 'ΔG°(kJ/mol)', 'ΔG°(kJ/mol)', 'ΔG°(kJ/mol)', 'ΔG°(kJ/mol)', 'ΔG°(kJ/mol)', 'ΔH° (kJ/mol)', 'ΔS° (J/mol)'], ['', '298\xa0K', '308\xa0K', '318\xa0K', '328\xa0K', '338\xa0K', '', ''], ['ZnO@ZIF-8 by US', '−1.7926', '−2.0915', '−2.5736', '−2.8798', '−3.8674', '12.8268', '48.6369'], ['ZnO@ZIF-8 by MW', '−1.3943', '−1.7132', '−2.1094', '−2.4910', '−3.0873', '10.9747', '41.2474']]"
+INFO       in table.py            --> Configuration parameters are: {'use_title_row': True, 'use_prefixing': True, 'use_footnotes': True, 'use_spanning_cells': True, 'use_header_extension': True, 'use_max_data_area': False, 'standardize_empty_data': True, 'row_header': None, 'col_header': None}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Isotherm model'], ['Langmuir'], ['Freundlich'], ['Sips']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Isotherm model'], ['Langmuir'], ['Freundlich'], ['Sips']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Isotherm model'], ['Langmuir'], ['Freundlich'], ['Sips']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Isotherm model'], [''], [''], ['']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Kinetic model'], ['Pseudo first order'], ['Pseudo second order'], ['Avrami fractional order']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Kinetic model'], ['Pseudo first order'], ['Pseudo second order'], ['Avrami fractional order']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Kinetic model'], ['Pseudo first order'], ['Pseudo second order'], ['Avrami fractional order']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Kinetic model'], [''], [''], ['']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Isotherm model', 'Param.'], ['Langmuir', 'KL(L/mg)'], ['Langmuir', 'KL(L/mg)'], ['Langmuir', 'Qm(mg/g)'], ['Langmuir', 'Qm(mg/g)'], ['Langmuir', 'R2'], ['Langmuir', 'R2'], ['Freundlich', 'KF(mg/g)'], ['Freundlich', 'KF(mg/g)'], ['Freundlich', 'nF'], ['Freundlich', 'nF'], ['Freundlich', 'R2'], ['Freundlich', 'R2'], ['Sips', 'Ks(L/mg)'], ['Sips', 'Ks(L/mg)'], ['Sips', 'Qm(mg/g)'], ['Sips', 'Qm(mg/g)'], ['Sips', 'nS'], ['Sips', 'nS'], ['Sips', 'R2'], ['Sips', 'R2']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Isotherm model', 'Param.'], ['Langmuir', 'KL(L/mg)'], ['Langmuir', 'KL(L/mg)'], ['Langmuir', 'Qm(mg/g)'], ['Langmuir', 'Qm(mg/g)'], ['Langmuir', 'R2'], ['Langmuir', 'R2'], ['Freundlich', 'KF(mg/g)'], ['Freundlich', 'KF(mg/g)'], ['Freundlich', 'nF'], ['Freundlich', 'nF'], ['Freundlich', 'R2'], ['Freundlich', 'R2'], ['Sips', 'Ks(L/mg)'], ['Sips', 'Ks(L/mg)'], ['Sips', 'Qm(mg/g)'], ['Sips', 'Qm(mg/g)'], ['Sips', 'nS'], ['Sips', 'nS'], ['Sips', 'R2'], ['Sips', 'R2']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Isotherm model', 'Param.'], ['Langmuir', 'KL(L/mg)'], ['Langmuir', 'KL(L/mg)'], ['Langmuir', 'Qm(mg/g)'], ['Langmuir', 'Qm(mg/g)'], ['Langmuir', 'R2'], ['Langmuir', 'R2'], ['Freundlich', 'KF(mg/g)'], ['Freundlich', 'KF(mg/g)'], ['Freundlich', 'nF'], ['Freundlich', 'nF'], ['Freundlich', 'R2'], ['Freundlich', 'R2'], ['Sips', 'Ks(L/mg)'], ['Sips', 'Ks(L/mg)'], ['Sips', 'Qm(mg/g)'], ['Sips', 'Qm(mg/g)'], ['Sips', 'nS'], ['Sips', 'nS'], ['Sips', 'R2'], ['Sips', 'R2']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Isotherm model'], ['Langmuir'], ['Langmuir'], ['Langmuir'], ['Freundlich'], ['Freundlich'], ['Freundlich'], ['Sips'], ['Sips'], ['Sips'], ['Sips']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Isotherm model'], ['Langmuir'], ['Langmuir'], ['Langmuir'], ['Freundlich'], ['Freundlich'], ['Freundlich'], ['Sips'], ['Sips'], ['Sips'], ['Sips']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Isotherm model'], ['Langmuir'], ['Langmuir'], ['Langmuir'], ['Freundlich'], ['Freundlich'], ['Freundlich'], ['Sips'], ['Sips'], ['Sips'], ['Sips']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Isotherm model'], [''], [''], ['']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['MOF'], ['Al-MIL-101'], ['Al-MIL-101'], ['Al-MIL-101'], ['Al-MIL-101'], ['Al-MIL-101'], ['ZIF-67'], ['ZIF-67'], ['ZIF-67'], ['ZIF-67'], ['ZIF-67'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF8@MWCNT'], ['ZIF8@MWCNT'], ['ZIF8@MWCNT'], ['ZIF8@MWCNT'], ['ZIF8@MWCNT'], ['La@ZIF-8'], ['La@ZIF-8'], ['La@ZIF-8'], ['La@ZIF-8'], ['La@ZIF-8'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-MW'], ['ZnO@ZIF-8-MW'], ['ZnO@ZIF-8-MW'], ['ZnO@ZIF-8-MW'], ['ZnO@ZIF-8-MW']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['MOF'], ['Al-MIL-101'], ['Al-MIL-101'], ['Al-MIL-101'], ['Al-MIL-101'], ['Al-MIL-101'], ['ZIF-67'], ['ZIF-67'], ['ZIF-67'], ['ZIF-67'], ['ZIF-67'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF8@MWCNT'], ['ZIF8@MWCNT'], ['ZIF8@MWCNT'], ['ZIF8@MWCNT'], ['ZIF8@MWCNT'], ['La@ZIF-8'], ['La@ZIF-8'], ['La@ZIF-8'], ['La@ZIF-8'], ['La@ZIF-8'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-MW'], ['ZnO@ZIF-8-MW'], ['ZnO@ZIF-8-MW'], ['ZnO@ZIF-8-MW'], ['ZnO@ZIF-8-MW']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['MOF'], ['Al-MIL-101'], ['Al-MIL-101'], ['Al-MIL-101'], ['Al-MIL-101'], ['Al-MIL-101'], ['ZIF-67'], ['ZIF-67'], ['ZIF-67'], ['ZIF-67'], ['ZIF-67'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF-8'], ['ZIF8@MWCNT'], ['ZIF8@MWCNT'], ['ZIF8@MWCNT'], ['ZIF8@MWCNT'], ['ZIF8@MWCNT'], ['La@ZIF-8'], ['La@ZIF-8'], ['La@ZIF-8'], ['La@ZIF-8'], ['La@ZIF-8'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-US'], ['ZnO@ZIF-8-MW'], ['ZnO@ZIF-8-MW'], ['ZnO@ZIF-8-MW'], ['ZnO@ZIF-8-MW'], ['ZnO@ZIF-8-MW']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['MOF'], [''], [''], [''], [''], [''], [''], ['']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 0}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Adsorbent'], ['Adsorbent'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 1}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Adsorbent'], ['Adsorbent'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 1}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Adsorbent'], ['Adsorbent'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-US'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW'], ['ZnO@ZIF-8-WD-MW']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 1}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[['Adsorbent'], ['Adsorbent'], [''], ['']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 1}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[[''], [''], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 1}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[[''], [''], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 1}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[[''], [''], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by US'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW'], ['ZnO@ZIF-8 by MW']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 1}
+INFO       in from_any.py         --> Input is list type.
+INFO       in from_any.py         --> Input is list type.
+INFO       in table.py            --> Initialization of table: "[[''], [''], [''], ['']]"
+INFO       in table.py            --> Configuration parameters are: {'standardize_empty_data': False, 'clean_row_header': True, 'row_header': 0, 'col_header': 1}
+INFO       in from_any.py         --> Input is list type.
+CRITICAL   in table.py            --> Input table is empty.
