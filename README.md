@@ -170,10 +170,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 ### Short-term:
-- [ ] Provide worked examples
 
 ### Medium-term:
-- [ ] 
 
 ### Longer-term:
 - [ ] Python-native data extraction and validation
